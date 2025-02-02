@@ -37,7 +37,7 @@ native-image --version
 Берем простой код на swing и пробуем его собрать.
 
 ```java
-# SwingTest.java
+// SwingTest.java
 import javax.swing.*;
 
 public class SwingTest {

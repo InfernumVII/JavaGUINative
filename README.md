@@ -34,6 +34,8 @@ native-image --version
 
 Теперь приступим к сборке. Для Maven, Grandle гугл в помощь, я делал без них.
 
+Берем простой код на swing и пробуем его собрать.
+
 ```java
 # SwingTest.java
 import javax.swing.*;

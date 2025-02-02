@@ -119,6 +119,58 @@ java --list-modules
 
 ![image7](https://github.com/user-attachments/assets/408d7e87-12d7-4981-b362-614b4fe96fd0)
 
+Пишем простенький код
+
+```java
+// JavaFXTest.java
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
+
+public class JavaFXTest extends Application {
+    @Override
+    public void start(Stage primaryStage) {
+        Button btn = new Button("Нажми меня");
+        btn.setOnAction(event -> System.out.println("Кнопка нажата!"));
+        
+        StackPane root = new StackPane();
+        root.getChildren().add(btn);
+        
+        Scene scene = new Scene(root, 300, 200);
+        primaryStage.setTitle("Тест JavaFX");
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+    
+    public static void main(String[] args) {
+        launch(args);
+    }
+}
+
+
+```
+
+Собираем...
+```
+javac -encoding UTF-8 JavaFXTest.java
+```
+Билдим...
+```
+native-image JavaFXTest
+```
+Произошла магия и оно работает, но к сожалению только не на вашем пк
+
+Я не знаю в чем проблема, но когда скидываешь данный exe-шник на любой другой пк, с другой архитектурой(или с такой-же) процессора - оно работает
+
+Возможно когда-нибудь найду фикс данной проблемы
+
+Вы всегда можете проверить свой exe-шник на другой машине с помощью [terminator aeza](https://terminator.aeza.net/), не забудьте установить [Visual C++ Redistributable Runtimes](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
+
+А я достаточно намучился и пожалуй все же пойду пробовать писать на C++ свое приложение, а вам советую остановить данный гайд в самом начале и просто подкидывать JRE, JavaFX SDK вместе с вашим файлом exe, сделанным в [launch4j](https://launch4j.sourceforge.net/)
+
+
 
 
 

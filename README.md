@@ -32,6 +32,10 @@ native-image --version
 ```
 ![image2](https://github.com/user-attachments/assets/f7b528ac-9cb3-4bf5-9208-473f6f3b8679)
 
+Теперь приступим к сборке. Для Maven, Grandle гугл в помощь, я делал без них.
+
+
+
 
 
 

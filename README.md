@@ -14,7 +14,7 @@
 
 Это кастомный JDK, в котором есть утилита native-image, с помощью которой можно собрать AOT приложение на Java.
 
-Но для он криво работает с Swing(AWT) и JavaFX, поэтому я советую JDK от [be//soft](https://bell-sw.com/pages/downloads/native-image-kit/#nik-23-(jdk-17)) при установки надо обязательно выставить все флаги чтобы JDK автоматически добавилось в Path.
+Но он криво работает с Swing(AWT) и JavaFX, поэтому я советую JDK от [be//soft](https://bell-sw.com/pages/downloads/native-image-kit/#nik-23-(jdk-17)) при установки надо обязательно выставить все флаги чтобы JDK автоматически добавилось в Path.
 
 Также на пк пользователя, который будет запускать ваше приложение обязательно должны быть [Visual C++ Redistributable Runtimes](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/), достаточно установить (vcredist2015_2017_2019_2022_x64.exe) почти у всех на пк он есть.
 

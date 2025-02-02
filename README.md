@@ -27,6 +27,12 @@ java -version
 ```
 ![image1](https://github.com/user-attachments/assets/05f46b49-931b-4caf-a175-ba0e1cd195a9)
 
+```
+native-image --version
+```
+![image2](https://github.com/user-attachments/assets/f7b528ac-9cb3-4bf5-9208-473f6f3b8679)
+
+
 
 
 

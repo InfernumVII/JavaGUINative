@@ -19,6 +19,7 @@
 
 ### 2️⃣ Установка зависимостей
 ✅ [Visual C++ Redistributable Runtimes](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) (установить `vcredist2015_2017_2019_2022_x64.exe` — он уже есть у большинства пользователей)
+
 ✅ [Visual Studio Build Tools 2022](https://aka.ms/vs/17/release/vs_BuildTools.exe) (при установке включить поддержку **разработки классических приложений на C++**)
 ![image0](https://github.com/user-attachments/assets/de4476e5-0e4c-4add-b0c2-e78cc48376db)
 

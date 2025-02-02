@@ -20,6 +20,10 @@
 
 И для сборки нужны [Visual Studio Build Tools 2022](https://aka.ms/vs/17/release/vs_BuildTools.exe)
 
+Теперь проверим что всё установилось правильно
+
+
+
 
 
 
